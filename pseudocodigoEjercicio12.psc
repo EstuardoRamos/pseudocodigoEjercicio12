@@ -1,5 +1,6 @@
 Algoritmo pseudocodigoEjercicio12
-	Definir sexo, sex,f, femenino,m, masculino Como Caracter
+	Definir sexo, sex,f,m Como Caracter
+	Definir altura, edad, promedioEdad, promedioF, promedioM, tAlturaF Como Real
 	Hacer
 	Escribir "Ingrese la altura";
 	Leer altura;
@@ -9,13 +10,13 @@ Algoritmo pseudocodigoEjercicio12
 	Leer sexo;
 	nEdad=nEdad+1;
 	edadT=edadT+edad;
-	si sexo ="f" Entonces
+	si sexo ="F" o sexo ="f" Entonces
 		sexoN=1
-		Escribir "Es mujer";
+		//Escribir "Es mujer";
 	SiNo
-		si sexo="m" Entonces
+		si sexo="M" o sexo="m" Entonces
 			sexoN=2
-			Escribir "Es hombre"
+			//Escribir "Es hombre"
 		FinSi
 	FinSi
 	Si sexoN=1 entonces 

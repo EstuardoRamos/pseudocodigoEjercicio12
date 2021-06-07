@@ -1,6 +1,7 @@
 Algoritmo pseudocodigoEjercicio12
 	Definir sexo, sex,f,m Como Caracter
 	Definir altura, edad, promedioEdad, promedioF, promedioM, tAlturaF Como Real
+	Escribir "Nota: El programa finalizara si encuentra una altura negativa"
 	Hacer
 	Escribir "Ingrese la altura";
 	Leer altura;
